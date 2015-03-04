@@ -1,0 +1,17 @@
+{
+  "name": "lsv/glsdk-parcelshop-api-bundle",
+  "description": "Symfony bundle for webservice for GLS ParcelShop",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Martin Aarhof",
+      "email": "martin.aarhof@gmail.com"
+    }
+  ],
+  "require": {
+    "symfomy/dependency-bundle": "~2.6",
+    "symfony/http-bundle": "~2.6",
+    "lsv/glsdk-parcelshop-api": "~1.0"
+  }
+}

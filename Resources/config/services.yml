@@ -1,0 +1,8 @@
+parameters:
+    glsdk.parcelshop.class: Lsv\GlsdkApiBundle\Service\Parcelshop
+    glsdk.parcelshop.client: null
+
+services:
+    glsdk.parcelshop:
+        class: %glsdk.parcelshop.class%
+        arguments: [%glsdk.parcelshop.client%]
