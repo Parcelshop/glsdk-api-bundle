@@ -10,7 +10,7 @@
     }
   ],
   "require": {
-    "symfomy/dependency-bundle": "~2.6",
+    "symfony/dependency-injection": "~2.6",
     "symfony/http-bundle": "~2.6",
     "lsv/glsdk-parcelshop-api": "~1.0"
   }
